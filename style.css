@@ -1,0 +1,102 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container-fluid {
+    background-color: #007bff;
+    
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+
+  .carouselhome{
+    width:30%;
+    height: 30%;
+    padding-left:300px;
+      
+  }
+
+  #carouharry{
+    background-color: darkslategray;
+  }
+
+  #carouselExampleCaptions{
+    width: 30%;
+    height: 30%;
+   margin-left: 525px;
+   margin-top: 25px;
+  }
+
+  #carouselExampleCaptions1{
+    width: 30%;
+    height: 30%;
+   margin-left: 500px;
+   margin-top: 35px;
+  }
+
+   Custom CSS to limit the size of carousel images
+.carousell-inner img {
+    max-width: 500px;
+    max-height: 500px;
+    
+  }   
+
+#loginform{
+    width:30%;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+   
+#signupform{
+    width:30%;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+  
+  .navbar-nav .nav-link:hover {
+    color: #0056b3;
+  }
+  
+  .jumbotron {
+    background-color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  .jumbotron h1 {
+    color: #007bff;
+  }
+  
+
+
+  .jumbotron p {
+    color: #555555;
+  }
+
+  .card{
+    margin-top: 300px;
+    margin-left:10px;
+  }
+
+  .cardsup{
+    margin-top: 300px;
+    margin-left:10px;
+    margin-bottom: 10px;
+  }
+  .cardlog{
+    margin-top: 300px;
+    margin-left:10px;
+    margin-bottom: 10px;
+  }
+
+  .carddisp{
+    margin-top: 200px;
+    margin-left:10px;
+    margin-bottom: 10px;
+  }
