@@ -83,8 +83,7 @@ body {
     margin-top: 300px;
     margin-left:10px;
   }
-
-  .cardsup{
+.cardsup{
     margin-top: 300px;
     margin-left:10px;
     margin-bottom: 10px;
@@ -94,8 +93,12 @@ body {
     margin-left:10px;
     margin-bottom: 10px;
   }
-
-  .carddisp{
+.carddisp{
+    margin-top: 200px;
+    margin-left:10px;
+    margin-bottom: 10px;
+  }
+  .cardbiop{
     margin-top: 200px;
     margin-left:10px;
     margin-bottom: 10px;
