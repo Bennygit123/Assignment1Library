@@ -25,7 +25,7 @@ function validate() {
     if (err2.innerText.includes("valid") && err2.innerText.includes("strong")) {
         console.log("Validation successful, redirecting to Success.html");
         // Redirect to Success.html
-        window.location.replace("Success.html");
+        window.location.replace("success.html");
         // or window.location.href = "Success.html";
     }
 }
