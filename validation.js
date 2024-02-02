@@ -23,8 +23,8 @@ function validate() {
     // Check if both email and password are valid
     if (err2.innerText.includes("valid") && err2.innerText.includes("strong")) {
         // Redirect to Success.html
-        window.location.replace("Success.html");
-        // or window.location.href = "Success.html";
+        window.location.href = "success.html";
     }
 }
+
 
