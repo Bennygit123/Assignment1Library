@@ -16,15 +16,19 @@ function validatePassword() {
 }
 
 // Combined validation function
+// Combined validation function
 function validate() {
     validateEmail();
     validatePassword();
 
     // Check if both email and password are valid
     if (err2.innerText.includes("valid") && err2.innerText.includes("strong")) {
+        console.log("Validation successful, redirecting to Success.html");
         // Redirect to Success.html
-        window.location.href = "success.html";
+        window.location.replace("Success.html");
+        // or window.location.href = "Success.html";
     }
 }
+
 
 
