@@ -1,3 +1,6 @@
+
+var pwd = document.getElementById("pwd");
+var err2 = document.getElementById("err2");
 // Password validation
 function validatePassword() {
     var password = pwd.value;
@@ -6,6 +9,7 @@ function validatePassword() {
     if (passwordRegexp.test(password)) {
         err2.innerText = "Password is strong";
         err2.style.color = "green";
+        return true;
     } else if (password.length >= 8) {
         err2.innerText = "Password is medium";
         err2.style.color = "orange";
@@ -13,25 +17,20 @@ function validatePassword() {
         err2.innerText = "Password is weak";
         err2.style.color = "red";
     }
+
+    return false;
 }
 
-// Combined validation function
 // Combined validation function
 function validate() {
-    validateEmail();
-    validatePassword();
+    var emailValid = validateEmail();
+    var passwordStrong = validatePassword();
 
     // Check if both email and password are valid
-    var emailValid = err2.innerText.includes("Email is valid");
-    var passwordStrong = err2.innerText.includes("Password is strong");
-
     if (emailValid && passwordStrong) {
-        console.log("Validation successful, redirecting to Success.html");
-        // Redirect to Success.html
+        console.log("Validation successful, redirecting to success.html");
+        // Redirect to success.html
         window.location.replace("success.html");
-        // or window.location.href = "Success.html";
+        // or window.location.href = "success.html";
     }
 }
-
-
-
