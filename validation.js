@@ -22,7 +22,10 @@ function validate() {
     validatePassword();
 
     // Check if both email and password are valid
-    if (err2.innerText.includes("valid") && err2.innerText.includes("strong")) {
+    var emailValid = err2.innerText.includes("Email is valid");
+    var passwordStrong = err2.innerText.includes("Password is strong");
+
+    if (emailValid && passwordStrong) {
         console.log("Validation successful, redirecting to Success.html");
         // Redirect to Success.html
         window.location.replace("success.html");
